@@ -1,8 +1,8 @@
 import React from 'react';
 
-function  NumButton() {
+const NumButton = (props) => {
     return (
-        <div>I'm a button!</div>
+        <div>{props.num}</div>
     )
 }
 
